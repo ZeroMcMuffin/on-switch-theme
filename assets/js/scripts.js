@@ -16477,6 +16477,10 @@ jQuery.extend( jQuery.easing,
             e.preventDefault();
             $("#slidemenu-wrapper").toggleClass("active");
         });
+        $("#mobile-menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#slidemenu-wrapper").toggleClass("active");
+        });
         /* FitVids */
         $(".post-content").fitVids();
         /* Cover Parralax effect */
